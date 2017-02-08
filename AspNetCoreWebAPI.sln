@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3118BF83-9753-4E6E-9B12-1DA67B16A6B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F33C0A9B-324B-463E-8E01-C8352BA806E8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreWebAPI", "src\AspNetCoreWebAPI\AspNetCoreWebAPI.xproj", "{ABFD8B5B-BAD6-431F-8EBB-F9F47CE5FB1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABFD8B5B-BAD6-431F-8EBB-F9F47CE5FB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABFD8B5B-BAD6-431F-8EBB-F9F47CE5FB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABFD8B5B-BAD6-431F-8EBB-F9F47CE5FB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABFD8B5B-BAD6-431F-8EBB-F9F47CE5FB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABFD8B5B-BAD6-431F-8EBB-F9F47CE5FB1F} = {3118BF83-9753-4E6E-9B12-1DA67B16A6B6}
+	EndGlobalSection
+EndGlobal
