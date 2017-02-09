@@ -34,7 +34,6 @@ namespace AspNetCoreWebAPI
             // Add framework services.
             services.AddMvc()
                     .AddXmlDataContractSerializerFormatters();
-            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,6 +43,18 @@ namespace AspNetCoreWebAPI
             loggerFactory.AddDebug();
 
             app.UseMvc();
+
+
+            //app.Run(ctx =>
+            //{
+            //    throw new InvalidOperationException("Who did this?");
+            //});
+
+            //app.Use((context, next) =>
+            //{
+            //    return next.Invoke();
+            //});
+
 
             app.UseSwagger();
             app.UseSwaggerUi();

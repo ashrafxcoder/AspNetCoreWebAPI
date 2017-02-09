@@ -20,9 +20,9 @@ namespace AspNetCoreWebAPI.Controllers
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public Value Get(int id)
         {
-            return "value";
+            return new Value { Id = id, Text =  $"value{id}";
         }
 
         // POST api/values
